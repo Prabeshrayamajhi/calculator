@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+html {
+    font-size: 150%;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+body {
+    background: #909090;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: #909090;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background-color: #eee;
+    border-radius: 0.5em;
+    overflow: hidden;
+    height: 30rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculator__display {
+    background-color: #fff;
+    width: 95%;
+    padding: -2.5rem 1rem;
+    text-align: right;
+    font-size: larger;
+    flex: 20%;
+    margin-top: .5rem;
+    box-shadow: inset 0 .2rem .2rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.calculator__display span {
+    margin-right: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.calculator__keys {
+    background: var(--grey-200);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 80%;
+    flex-direction: column;
+    width: 95%;
+}
+
+.calculator__keys>button {
+    border: 0;
+}
+
+.calculator__keys>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1rem;
+}
+
+.number {
+    border: none;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background-color: #6b615e;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.C {
+    align-self: flex-end;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: #c15740;
+}
+
+#function {
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+#function1 {
+    padding: 1rem 3rem 1rem 3.4rem;
+}
+
+#bg-red {
+    background-color: #c15740;
+}
